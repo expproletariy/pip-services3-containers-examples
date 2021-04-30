@@ -1,0 +1,32 @@
+---
+# Container context
+- descriptor: "pip-services:context-info:default:default:1.0"
+  name: "app-example"
+  description: "Example of docker container"
+
+# Console logger
+- descriptor: "pip-services:logger:console:default:1.0"
+  level: "trace"
+
+# Performance counter that post values to log
+- descriptor: "pip-services:counters:log:default:1.0"
+
+# Controller
+- descriptor: "app-example:controller:default:default:1.0"
+  default_name: "World"
+
+# Shared HTTP Endpoint
+- descriptor: "pip-services:endpoint:http:default:1.0"
+  connection:
+    protocol: http
+    host: 0.0.0.0
+    port: 8080
+
+    # HTTP Service V1
+- descriptor: "app-example:service:http:default:1.0"
+
+# Heartbeat service
+- descriptor: "pip-services:heartbeat-service:http:default:1.0"
+
+# Status service
+- descriptor: "pip-services:status-service:http:default:1.0"

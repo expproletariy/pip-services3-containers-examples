@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  appexample:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: pip-services3/app-docker-example-go
+    ports:
+      - "8080:8080"
