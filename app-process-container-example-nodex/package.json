@@ -1,0 +1,24 @@
+{
+  "name": "app-process-container-example-nodex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "tsc && node ./bin/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pip-services3-commons-nodex": "^1.0.1",
+    "pip-services3-components-nodex": "^1.2.2",
+    "pip-services3-container-nodex": "^1.0.2",
+    "pip-services3-rpc-nodex": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.17",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.1"
+  }
+}
