@@ -26,4 +26,4 @@ ENV HTTP_PORT=8080
 EXPOSE "8080:8080"
 
 # Specify the command to run
-CMD ["node", "./bin/main.js"]
+CMD ["node", "./bin/main_process_container.js"]

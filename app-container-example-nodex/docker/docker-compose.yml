@@ -5,6 +5,6 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    image: pip-services3/app-docker-example-nodex
+    image: pip-services3/app-container-example-nodex
     ports:
       - "8080:8080"

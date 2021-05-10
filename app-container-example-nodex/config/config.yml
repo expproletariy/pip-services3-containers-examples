@@ -2,7 +2,7 @@
 # Container context
 - descriptor: "pip-services:context-info:default:default:1.0"
   name: "app-example"
-  description: "Example of simple container"
+  description: "Example of pip services containers"
 
 # Console logger
 - descriptor: "pip-services:logger:console:default:1.0"

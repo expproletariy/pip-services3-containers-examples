@@ -1,8 +1,8 @@
-const AppExampleContainer = require('../obj/src').AppExampleContainer;
+const AppExampleProcessContainer = require('../obj/src').AppExampleProcessContainer;
 const path = require('path');
 
 try {
-    const container = new AppExampleContainer();
+    const container = new AppExampleProcessContainer();
     container._configPath = path.join('config', 'config.yml');
     container.run(process.argv);
 } catch (ex) {

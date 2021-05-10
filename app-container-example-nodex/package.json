@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "start": "tsc && node ./bin/main.js"
+    "container": "tsc && node ./bin/main_container.js",
+    "process_container": "tsc && node ./bin/main_process_container.js"
   },
   "author": "",
   "license": "ISC",
