@@ -1,0 +1,16 @@
+---
+# Container context
+- descriptor: "pip-services:context-info:default:default:1.0"
+  name: "app-example"
+  description: "Example of pip services lambda container"
+
+# Console logger
+- descriptor: "pip-services:logger:console:default:1.0"
+  level: "trace"
+
+# Performance counter that post values to log
+- descriptor: "pip-services:counters:log:default:1.0"
+
+# Controller
+- descriptor: "app-example:controller:default:default:1.0"
+  default_name: "World"
