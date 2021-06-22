@@ -1,3 +1,2 @@
-const AppExampleLambdaFunction = require('./src/container/AppExampleLambdaFunction').AppExampleLambdaFunction;
-
-exports.handler = new AppExampleLambdaFunction().getHandler();
+const AppExampleCommandableLambdaFunction = require('./src/container/AppExampleCommandableLambdaFunction').AppExampleCommandableLambdaFunction;
+exports.handler = new AppExampleCommandableLambdaFunction().getHandler();

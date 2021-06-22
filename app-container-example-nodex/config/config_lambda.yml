@@ -14,3 +14,6 @@
 # Controller
 - descriptor: "app-example:controller:default:default:1.0"
   default_name: "World"
+
+# Service
+- descriptor: "app-example:service:commandable-lambda:default:1.0"
